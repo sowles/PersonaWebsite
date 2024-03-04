@@ -1,24 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #F4F3EB;
-}
+    background-image: linear-gradient(50deg, #68aeff, #c67df0);
+    background-color: (0, 0, 0, 0);
+    height: 100vh;
 
-body::before {
-    content: "";
-    background-image: url('assets/Cardinal\ Backdrop.png'); /* Adjust the path to your image */
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    position: fixed;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    z-index: -1;
-    opacity: 1; /* Adjust the opacity if needed */
-    
 }
 
 header img {
@@ -30,38 +19,31 @@ header img {
 main h2 {
     text-align: center; 
     height: 20px;
+    background-color: (0, 0, 0, 0)
 }
-@font-face { 
-    font-family: 'MyFont'; 
-    src: 
-        url('assets/kage.otf')  
-        format('opentype'); 
-    font-weight: normal; 
-    font-style: normal; 
-} 
   
 header {
-    background-color: #353D4f;
-    color: #ffffff;
+    background-color: rgba(244, 243, 235, 0);
+    color: #000000;
     text-align: center;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     align-items: center;
     padding: 0.25em;
     justify-content: center; 
+    
 }
+
 
 header h1 {
     justify-self: start;
     font-size: 1.5em;
     padding-left: 10px; 
-    grid-column: 1; 
     fill: rgb(255, 255, 255);
+    font-family: 'Roboto', sans-serif; /* Change the font here */
 }
 
-main {
-    padding: 20px;
-}
+
 
 footer {
     background-color: #353D4f;
@@ -90,11 +72,12 @@ footer {
 }
 
 /* Side Image */
-.side-image {
+
+.side-image2 {
     position: fixed;
-    top: 50%;
-    left: 164px; /* Adjust the left position as needed */
-    transform: translateY(-50%);
+    width: 25px !important;
+    height: 30px !important;
+    transform: translateY(-200%);
 }
 
 /* Content */
@@ -142,7 +125,7 @@ footer {
 .dropbtn {
     grid-column: 3;  /* Move the button to the third column */
     justify-self: end; 
-    background-color: #CDAD47;
+    background-color: #68aeff;
     color: white;
     padding: 16px;
     font-size: 16px;
@@ -187,5 +170,5 @@ footer {
   .dropdown:hover .dropdown-content {display: block;}
   
   /* Change the background color of the dropdown button when the dropdown content is shown */
-  .dropdown:hover .dropbtn {background-color: #b59940;}
+  .dropdown:hover .dropbtn {background-color: #5187c4;}
 
