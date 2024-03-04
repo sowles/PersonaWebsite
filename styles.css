@@ -24,7 +24,7 @@ main h2 {
   
 header {
     background-color: rgba(244, 243, 235, 0);
-    color: #000000;
+    color: #ffffff;
     text-align: center;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -32,6 +32,10 @@ header {
     padding: 0.25em;
     justify-content: center; 
     
+}
+
+h2{
+    color: white;
 }
 
 
@@ -75,9 +79,11 @@ footer {
 
 .side-image2 {
     position: fixed;
-    width: 25px !important;
-    height: 30px !important;
-    transform: translateY(-200%);
+    width: 25px ;
+    height: 30px ;
+    transform: translateY(-50%);
+    transform: translateX(100%);
+
 }
 
 /* Content */
@@ -90,7 +96,7 @@ footer {
     margin-bottom: 40px;
 }
 .box1, .box2{
-    background-color: #F4F3EB;
+    background-color: #ffffff;
     height: 100px;
     width: 400px;
     border-radius: 5px 5px 5px 5px;
@@ -116,9 +122,14 @@ footer {
     }
     
 }
-@media (max-width: 755px) {
-    .side-image {
+
+@media (max-width: 860px) {
+    .side-image2 {
         display: none;
+    }
+    .grid-container{
+        justify-content: center;
+        justify-self: center;
     }
 }
 /* Dropdown Button */
