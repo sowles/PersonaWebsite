@@ -42,6 +42,8 @@ h3{
     height: 20px;
     background-color: (0, 0, 0, 0);
     color: white;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 header h1 {
@@ -49,7 +51,7 @@ header h1 {
     font-size: 1.5em;
     padding-left: 10px; 
     fill: rgb(255, 255, 255);
-    font-family: 'Roboto', sans-serif; /* Change the font here */
+    font-family: 'Roboto', sans-serif;
 }
 
 
@@ -59,11 +61,18 @@ footer {
     /* #CCD0D7 , #CDAD47, #F4F3EB*/
     color: #fff;
     text-align: center;
+    justify-self: center;
     padding: 1em;
     position: fixed;
     bottom: 0;
     width: 100%;
+    margin: 0;
+    padding: 0;
+    /* height: 5%; */
+    padding-bottom: .5em;
+    padding-top: .5em;
 }
+
 
 
 .grid-container {
